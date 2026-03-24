@@ -4,7 +4,30 @@ Claude Code plugin marketplace containing the `ssa-devteam` plugin.
 
 ## Installation
 
-Add to your `~/.claude/settings.json`:
+### CLI (recommended)
+
+```bash
+# Add the marketplace
+claude plugin marketplace add mderganc/ssa-devteam
+
+# Install the plugin
+claude plugin install ssa-devteam@ssa-devteam
+```
+
+Then enable agent teams by adding to `~/.claude/settings.json`:
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
+```
+
+Restart Claude Code.
+
+### Manual (settings.json)
+
+Add all three blocks to `~/.claude/settings.json`:
 
 ```json
 {
@@ -25,7 +48,7 @@ Add to your `~/.claude/settings.json`:
 }
 ```
 
-Then restart Claude Code.
+Restart Claude Code.
 
 ## Usage
 

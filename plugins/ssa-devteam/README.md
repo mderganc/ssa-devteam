@@ -43,15 +43,10 @@ The PM dynamically activates roles based on task scope — a frontend-only bugfi
 
 ## Installation
 
-**From GitHub:**
 ```bash
-claude plugin install mderganc/ssa-devteam
-```
-
-**From local clone:**
-```bash
-git clone https://github.com/mderganc/ssa-devteam.git
-claude plugin install ./ssa-devteam
+# Add the marketplace and install
+claude plugin marketplace add mderganc/ssa-devteam
+claude plugin install ssa-devteam@ssa-devteam
 ```
 
 ## Usage
