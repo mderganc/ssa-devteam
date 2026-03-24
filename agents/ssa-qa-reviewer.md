@@ -64,7 +64,7 @@ For each finding, use this structure:
 **Location:** [file:line or component]
 **Description:** What was found
 **Impact:** What could go wrong
-**Suggestion:** How to fix (for WARN and FAIL)
+**Fix:** How to fix (for WARN and FAIL)
 ```
 
 ### Rating Scale

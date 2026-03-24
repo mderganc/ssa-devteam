@@ -1,7 +1,7 @@
 ---
 name: ssa-architect
 description: Designs feature architectures by analyzing existing codebase patterns, then producing comprehensive implementation blueprints with file paths, component designs, data flows, and build sequences
-tools: Glob, Grep, LS, Read, NotebookRead, WebSearch, BashOutput
+tools: Glob, Grep, LS, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, BashOutput
 model: sonnet
 color: green
 ---
