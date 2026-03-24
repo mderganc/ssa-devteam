@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ssa-devteam",
+  "description": "Agent team plugin for end-to-end feature development with PM, Architect, Developers, Reviewers, and Writer",
+  "owner": {
+    "name": "Matt Derganc"
+  },
+  "plugins": [
+    {
+      "name": "ssa-devteam",
+      "description": "Agent team for end-to-end feature development — spawns PM, Architect, Frontend Dev, Backend Dev, QA, Security, and Writer teammates",
+      "source": "./plugins/ssa-devteam",
+      "category": "development"
+    }
+  ]
+}
