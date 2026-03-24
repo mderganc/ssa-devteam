@@ -1,0 +1,7 @@
+{
+  "name": "ssa-devteam",
+  "description": "Agent team for end-to-end feature development — spawns PM, Architect, Frontend Dev, Backend Dev, QA, Security, and Writer teammates",
+  "author": {
+    "name": "Matt Derganc"
+  }
+}
