@@ -131,28 +131,28 @@ Based on scope:
 
 ## STAGE EXECUTION
 
-Execute stages in order. Each stage follows its skill file in `skills/`.
+Execute stages in order. Each stage follows its template file in `templates/`.
 
 ### Stage 1 — Investigation
-Follow `skills/stage-investigate.md`.
+Follow `templates/stage-investigate.md`.
 
 ### Stage 2 — Solution Generation
-Follow `skills/stage-solution.md`.
+Follow `templates/stage-solution.md`.
 
 ### Stage 3 — User Approval
-Follow `skills/stage-approval.md`.
+Follow `templates/stage-approval.md`.
 
 ### Stage 4 — Planning
-Follow `skills/stage-plan.md`.
+Follow `templates/stage-plan.md`.
 
 ### Stage 5 — Implementation
-Follow `skills/stage-implement.md`.
+Follow `templates/stage-implement.md`.
 
 ### Stage 6 — Review & Summary
-Follow `skills/stage-review.md`.
+Follow `templates/stage-review.md`.
 
 ### Stage 7 — Documentation & Merge
-Follow `skills/stage-document.md`.
+Follow `templates/stage-document.md`.
 
 ---
 
@@ -206,6 +206,6 @@ Watch for mid-session change requests in user messages.
 
 When items are deferred (at any stage):
 1. Close beads issue with reason
-2. Write full context to `.ssa-devteam/backlog.md` per `skills/stage-approval.md` format
+2. Write full context to `.ssa-devteam/backlog.md` per `templates/stage-approval.md` format
 3. Record in project.md
 4. Continue with remaining approved work
